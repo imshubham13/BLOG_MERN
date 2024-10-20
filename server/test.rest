@@ -1,0 +1,12 @@
+POST http://localhost:5000/api/addBlog
+content-type: application/json
+
+{
+    "blog_type": "Java",
+    "blog": "Introduction Java",
+    "blog_description":"Java is Programming Language",
+    "create_by":"James Gosling"
+}
+
+### Insert 
+GET http://localhost:5000/api/displayRecord
